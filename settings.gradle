@@ -1,0 +1,2 @@
+rootProject.name = "Tawk_test_task"
+include ':app'

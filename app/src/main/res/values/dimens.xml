@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_item_user">100dp</dimen>
+    <dimen name="size_profile_user_avatar">180dp</dimen>
+    <dimen name="size_profile_user_avatar_land">100dp</dimen>
+
+    <dimen name="corner_search_field">8dp</dimen>
+    <dimen name="corner_profile_notes">8dp</dimen>
+    <dimen name="corner_item_user">8dp</dimen>
+    <dimen name="corner_item_user_avatar">30dp</dimen>
+
+    <dimen name="margin_item_user_hor">20dp</dimen>
+    <dimen name="margin_item_user_top">12dp</dimen>
+    <dimen name="margin_profile">20dp</dimen>
+
+    <dimen name="width_stroke_search_edit_text_box">0dp</dimen>
+    <dimen name="width_stroke_app">2dp</dimen>
+</resources>

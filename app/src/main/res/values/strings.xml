@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">tawk_test_task</string>
+
+    <string name="search">Search</string>
+    <string name="user_avatar_image">User avatar image</string>
+    <string name="user_name">User name</string>
+    <string name="no_wifi_indicator">No wifi indicator</string>
+    <string name="exit_note_indicator">Exit note indicator</string>
+    <string name="name_loading">Name: loading…</string>
+    <string name="company_loading">Company: loading…</string>
+    <string name="blog_loading">Blog: loading…</string>
+    <string name="notes">Notes</string>
+    <string name="save">Save</string>
+    <string name="following_loading">Following: loading…</string>
+    <string name="followers_loading">Followers: loading…</string>
+    <string name="user_login">User Login</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="name">Name</string>
+    <string name="company">Company</string>
+    <string name="blog">Blog</string>
+    <string name="no_name">No name data</string>
+    <string name="no_company">No company data</string>
+    <string name="no_blog">No blog data</string>
+    <string name="note_saved">The Notes were saved successfully</string>
+    <string name="error">Ops, something goes wrong, please try again later</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimaryLight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorPrimaryBg</item>
+
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/colorSecondaryLight</item>
+
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+
+        <item name="android:windowBackground">@color/colorPrimaryBg</item>
+        <item name="android:colorBackground">@color/colorPrimaryBg</item>
+    </style>
+
+    <style name="AppToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="buttonGravity">center_vertical</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/allerta</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="NoWifiImg">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|end</item>
+        <item name="android:src">@drawable/ic_no_wifi</item>
+        <item name="android:visibility">gone</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="AppToolbar.Profile">
+        <item name="navigationIcon">@drawable/ic_arrow</item>
+        <item name="title">@string/user_login</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+    <style name="Text.ProfileUserData">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="ProfileDataLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_profile</item>
+        <item name="android:background">@drawable/bg_box_with_prim_stroke</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="ProfileNoteEditLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">@dimen/margin_profile</item>
+        <item name="android:hint">@string/notes</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/corner_profile_notes</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/corner_profile_notes</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/corner_profile_notes</item>
+        <item name="boxCornerRadiusTopStart">@dimen/corner_profile_notes</item>
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="boxStrokeWidth">@dimen/width_stroke_app</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+    </style>
+
+    <style name="ProfileEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">top</item>
+        <item name="android:inputType">textMultiLine</item>
+    </style>
+
+    <style name="ProfileSaveBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:text">@string/save</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>
